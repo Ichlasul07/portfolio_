@@ -93,30 +93,7 @@ html, body {
   }
   
 }
-@media only screen and (max-width: 400px) {
-  .bg {
-    background: linear-gradient(rgba(42, 58, 63, 0.8), rgba(42, 58, 63, 0.8)),
-      url('46e73595-39d2-4f07-9ea4-2b459f61ce14\ \(1\).jpg');
-    background-size: cover;
-    background-position: -510px;
-  }
-  .po{
-    display: flex;
-    flex-direction: column;
-    max-width: 100px;
-  }
-  .po>div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .po>div>div{
-    flex: 0.17;
-  }
-  .po>div>p{
-    flex: 1;
-  }
-}
+
 
 .landing-page--message .btn-outline-danger {
   color: white;
