@@ -68,12 +68,12 @@ html, body {
   letter-spacing: -1px;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 768px) {
   .bg {
     background: linear-gradient(rgba(42, 58, 63, 0.8), rgba(42, 58, 63, 0.8)),
       url('46e73595-39d2-4f07-9ea4-2b459f61ce14\ \(1\).jpg');
     background-size: cover;
-    background-position: -260px;
+    background-position: -500px;
   }
   .po{
     display: flex;
